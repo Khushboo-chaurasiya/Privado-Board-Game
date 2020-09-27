@@ -46,7 +46,7 @@ function boxArrow1(){
         var keyPr = event.keyCode; 
     
         if(keyPr === 39 && x<499){ 
-            if(x+101 < x2 || y>y2+100 || y+100<y2 || x>x2+100)
+            if(x+101 < x2 || y>y2+100 || y+100<y2 || x+1>x2+100)
             x = x+1; //right arrow add 1 from current
         }
         else if(keyPr === 37 && x>1){
